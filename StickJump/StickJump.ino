@@ -235,7 +235,7 @@ void displayMatrix()
 void drawMatrix() {
   clearMatrix();
 
-  //the row where the player is at given time
+  //the row where the player is at a given time
   int y = actualYPosition(player.row);
 
   if (validPoint(player.col, y)) {
@@ -253,7 +253,7 @@ int actualYPosition (int y) {
   return SIZE - 1 - (y - screenOffset);
 }
 
-//function for checking whether the point if between matrix boundaries or not
+//function for checking whether the point is between matrix boundaries or not
 boolean validPoint(int x, int y) {
   return  x >= 0 && x < SIZE && y >= 0 && y < SIZE;
 }
