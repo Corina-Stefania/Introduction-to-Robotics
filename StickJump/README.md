@@ -32,7 +32,7 @@ The gameplay is simple but still entertaining because of the different platform 
 
 
 ### Circuit and schematics
-![alt text](https://github.com/Corina-Stefania/Introduction-to-Robotics/blob/master/StickJump/Fritzing%20scheme/Stick_Jump_Circuit.png)
+![alt text](https://github.com/Corina-Stefania/Introduction-to-Robotics/blob/master/StickJump/Schematic/Stick_Jump_Circuit.png)
 
 ## Features
 Two buttons:
