@@ -45,6 +45,8 @@ Movement is controlled via joystick.
 
 * 1x Joystick
 
+* 1x Potentiometer
+
 * 4x 10k Ohm resistor
 
 * 1x 220 Ohm resistor
