@@ -1,9 +1,9 @@
 # Arcadino
 Implementation of a mini-arcade which consists of five games made using Arduino Uno and four 8x8 LED matrix.
 
-##Games Implemented
+## Games Implemented
 
-###Snake
+### Snake
 The player has only one life and loses when the snake bites itself, but wins only when it has a length of 256 leds. Points are accumulated by eating the randomly spawned apples on the game board. 
 Movement is controlled via joystick and the speed of the snake can be controlled with the potentiometer.
 
@@ -11,20 +11,20 @@ The game waits for input from the player (moving the joystick left or right) bef
 
 While playing, the score is displayed on an LCD.
 
-###Car Race
+### Car Race
 
 The player has only one life and loses when he hits another car. Points are accumulated by avoiding the randomly generated cars on the game board. 
 Movement is controlled via joystick. 
 
-###Flappy Bird
+### Flappy Bird
 The player has only one life and loses when he hits a tower or the bottom of the game board. Points are accumulated by avoiding the randomly generated tower on the game board. 
 Movement is controlled via joystick. 
 
-###Pong
+### Pong
 The player has five lives or points and the computer has the same amount. 
 Movement is controlled via joystick. 
 
-###Stick Jump
+### Stick Jump
 The player jumps on platforms and has to jump on as many as possible. If he falls, you lose the game.
 The plarforms dimension is decreasing for each level (max. three times).
 Movement is controlled via joystick.
