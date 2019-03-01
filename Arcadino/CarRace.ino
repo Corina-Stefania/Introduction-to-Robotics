@@ -230,11 +230,11 @@ void displayMatrix()
          if (i < 8 && j < 8)
             lc.setLed (0, i, j, Matrix[i][j]);
          else  if (i < 8 && 8 <= j < 16)
-            lc.setLed (1, i%8, j%8, Matrix[i][j]);
+            lc.setLed (1, i % 8, j % 8, Matrix[i][j]);
          else  if (8 <= i < 16 && j < 8)
-            lc.setLed (2, i%8, j%8, Matrix[i][j]);
+            lc.setLed (2, i % 8, j % 8, Matrix[i][j]);
          else  if (8 <= i < 16 && 8 <= j < 16)
-            lc.setLed (3, i%8, j%8, Matrix[i][j]);
+            lc.setLed (3, i % 8, j % 8, Matrix[i][j]);
     }
   }
 }
@@ -306,11 +306,11 @@ void displaySadFace() {
     {  if (i < 8 && j < 8)
             lc.setLed (0, i, j, sadFace[i][j]);
          else  if (i < 8 && 8 <= j < 16)
-            lc.setLed (1, i%8, j%8, sadFace[i][j]);
+            lc.setLed (1, i % 8, j % 8, sadFace[i][j]);
          else  if (8 <= i < 16 && j < 8)
-            lc.setLed (2, i%8, j%8, sadFace[i][j]);
+            lc.setLed (2, i % 8, j % 8, sadFace[i][j]);
          else  if (8 <= i < 16 && 8 <= j < 16)
-            lc.setLed (3, i%8, j%8, sadFace[i][j]);
+            lc.setLed (3, i % 8, j % 8, sadFace[i][j]);
     }
   }
 }
