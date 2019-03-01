@@ -194,21 +194,17 @@ void loop ()
     {
       movePlayer();
       moveComputer();
-
       start_time = current_time;
     }
 
     if ((current_ball_time - start_ball_time) > (default_time - pot_delay))
     {
-
       potentiometer_value = analogRead(potentiometer);
       if (potentiometer_value > 900 && pot_delay <= 200) pot_delay += bSpeed;
       else if (potentiometer_value < 200 && pot_delay >= 0) pot_delay -= bSpeed;
 
       moveBall();
       start_ball_time = current_ball_time;
-
-
     }
     lightMatrix();
   }
@@ -300,7 +296,6 @@ void moveBall ()
 
       int random_var = random(1, 11);
       if (random_var % 2) ball_y_dir = -ball_y_dir;
-
       if (ball.y + ball_y_dir > 15 || ball.y + ball_y_dir < 0)
         ball_y_dir = -ball_y_dir;
 
@@ -331,7 +326,6 @@ void moveBall ()
 void moveComputer ()
 {
   Point computer_middle = computer.showMidPosition();
-
   Point next_ball = ball;
   next_ball.x += ball_x_dir;
   next_ball.y += ball_y_dir;
