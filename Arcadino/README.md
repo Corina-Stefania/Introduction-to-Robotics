@@ -1,5 +1,5 @@
 # Arcadino
-Implementation of a mini-arcade which consists of five games made using Arduino Uno and four 8x8 LED matrix.
+Implementation of a mini-arcade which consists of five games made using Arduino Mega and four 8x8 LED matrix.
 
 ## Games Implemented
 
