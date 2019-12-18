@@ -30,7 +30,7 @@ The plarforms dimension is decreasing for each level (max. three times).
 Movement is controlled via joystick.
 
 ## Demo
-* [A short video with the gameplay and some images](https://mega.nz/#F!0fhCGYSD!KsBan9v81unrzOf4HMSE5w) 
+* [Videos with the gameplay](https://mega.nz/#F!0fhCGYSD!KsBan9v81unrzOf4HMSE5w) 
 
 ## Hardware Components
 * 3x Breadboard 
